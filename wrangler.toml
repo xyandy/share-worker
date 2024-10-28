@@ -10,3 +10,10 @@ minify = true
 
 # Use the new Workers + Assets to host the static frontend files
 assets = { directory = ".worker-next/assets", binding = "ASSETS" }
+
+[observability]
+enabled = true
+
+[[kv_namespaces]]
+binding = "SHARE_KV"
+id = "de5482cc39214ea09e8b2664916d1acd"
